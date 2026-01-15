@@ -1,0 +1,20 @@
+.flex-box {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+
+.flex-box a {
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	text-decoration: none !important;
+	color: #000;
+	font-weight: 500;
+	font-family: var(--global-heading-font-family, inherit);
+	font-size: 20px;
+}
+
+.flex-box a .icon {
+	transform: rotate(-40deg) !important;
+}
