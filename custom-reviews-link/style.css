@@ -1,0 +1,25 @@
+.review-link {
+    text-decoration: none !important;
+    color: #333;
+    font-weight: 500;
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+}
+
+.review-link .review-rating {
+    padding: 8px 5px;
+    vertical-align: bottom;
+    background: #89BB01;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+.review-link .flex-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
