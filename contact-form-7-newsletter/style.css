@@ -1,0 +1,31 @@
+form.wpcf7-form {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    width: fit-content;
+    padding: 5px 5px;
+    border-radius: 35px;
+}
+
+form.wpcf7-form p {
+    margin: 0;
+}
+
+form.wpcf7-form p input:not(.wpcf7-submit) {
+    background: transparent;
+    border: none;
+    padding: 0 15px;
+    box-shadow: none;
+}
+
+form.wpcf7-form .wpcf7-spinner {
+    display: none;
+}
+
+form.wpcf7-form.submitting {
+    flex-wrap: wrap;
+}
+
+form.wpcf7-form.submitting .wpcf7-spinner {
+    display: inline-block;
+}
